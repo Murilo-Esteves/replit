@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 97%;
+    --foreground: 220 14% 24%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 220 14% 24%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 14% 24%;
+    
+    --primary: 217 90% 52%;  /* #4285F4 */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 136 48% 43%; /* #34A853 */
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 210 11% 93%;
+    --muted-foreground: 215 16% 47%;
+    
+    --accent: 210 11% 93%;
+    --accent-foreground: 220 14% 24%;
+    
+    --destructive: 3 90% 55%; /* #EA4335 */
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 90% 52%;
+    
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 14% 24%;
+    --sidebar-primary: 217 90% 52%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 11% 93%;
+    --sidebar-accent-foreground: 220 14% 24%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 217 90% 52%;
+    
+    --radius: 0.5rem;
+    
+    /* Extra colors */
+    --warning: 40 96% 50%; /* #FBBC05 */
+    --warning-foreground: 0 0% 100%;
+    --neutral-50: 210 17% 98%;
+    --neutral-100: 210 16% 93%;
+    --neutral-200: 214 15% 89%;
+    --neutral-300: 213 13% 83%;
+    --neutral-400: 211 10% 74%;
+    --neutral-500: 211 9% 46%;
+    --neutral-600: 215 14% 34%;
+    --neutral-700: 216 18% 25%;
+    --neutral-800: 217 22% 15%;
+    --neutral-900: 219 29% 7%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply text-base;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply font-sans antialiased bg-[#F8F9FA] text-neutral-700 touch-manipulation;
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 1rem);
+  }
+
+  .status-indicator {
+    @apply w-3 h-3 rounded-full inline-block mr-1.5;
+  }
+
+  .status-green {
+    @apply bg-secondary;
+  }
+
+  .status-yellow {
+    @apply bg-[#FBBC05];
+  }
+
+  .status-red {
+    @apply bg-destructive;
+  }
+  
+  /* Mobile-optimized scrolling */
+  .smooth-scroll {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  
+  /* Prevent overflow issues on mobile */
+  .mobile-container {
+    @apply max-w-full overflow-hidden;
+  }
+}

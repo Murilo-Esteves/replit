@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+  <!-- Background -->
+  <circle cx="256" cy="256" r="250" fill="#f5f5f5"/>
+  
+  <!-- Toast on Plate -->
+  <ellipse cx="380" cy="330" rx="100" ry="20" fill="#FFFFFF"/>
+  <ellipse cx="380" cy="330" rx="95" ry="17" stroke="#EEEEEE" stroke-width="2" fill="none"/>
+  
+  <g transform="translate(330, 280)">
+    <!-- Toast -->
+    <rect x="0" y="0" width="50" height="40" rx="2" fill="#D68A3A"/>
+    <rect x="5" y="5" width="40" height="30" rx="1" fill="#E09B49" opacity="0.6"/>
+    
+    <!-- Toasted Edges -->
+    <rect x="0" y="0" width="50" height="40" rx="2" fill="none" stroke="#B56B1F" stroke-width="2"/>
+    
+    <!-- Toast Texture -->
+    <circle cx="15" cy="15" r="2" fill="#B56B1F" opacity="0.4"/>
+    <circle cx="35" cy="15" r="2" fill="#B56B1F" opacity="0.4"/>
+    <circle cx="25" cy="25" r="2" fill="#B56B1F" opacity="0.4"/>
+    <circle cx="15" cy="35" r="2" fill="#B56B1F" opacity="0.4"/>
+    <circle cx="35" cy="35" r="2" fill="#B56B1F" opacity="0.4"/>
+  </g>
+  
+  <g transform="translate(380, 260)">
+    <!-- Toast -->
+    <rect x="0" y="0" width="50" height="40" rx="2" fill="#D68A3A"/>
+    <rect x="5" y="5" width="40" height="30" rx="1" fill="#E09B49" opacity="0.6"/>
+    
+    <!-- Toasted Edges -->
+    <rect x="0" y="0" width="50" height="40" rx="2" fill="none" stroke="#B56B1F" stroke-width="2"/>
+    
+    <!-- Toast Texture -->
+    <circle cx="15" cy="15" r="2" fill="#B56B1F" opacity="0.4"/>
+    <circle cx="35" cy="15" r="2" fill="#B56B1F" opacity="0.4"/>
+    <circle cx="25" cy="25" r="2" fill="#B56B1F" opacity="0.4"/>
+    <circle cx="15" cy="35" r="2" fill="#B56B1F" opacity="0.4"/>
+    <circle cx="35" cy="35" r="2" fill="#B56B1F" opacity="0.4"/>
+  </g>
+  
+  <!-- Cup of Milk -->
+  <g>
+    <!-- Cup -->
+    <path d="M200,220 L140,220 L130,330 L210,330 Z" fill="#FFFFFF"/>
+    <path d="M130,330 L210,330 C210,330 215,340 170,340 C125,340 130,330 130,330 Z" fill="#FCFCFC"/>
+    <ellipse cx="170" cy="220" rx="30" ry="10" fill="#FFF8F0"/>
+    
+    <!-- Cup Handle -->
+    <path d="M210,250 C240,250 240,300 210,300" fill="none" stroke="#FCFCFC" stroke-width="10"/>
+    
+    <!-- Cup Outline -->
+    <path d="M200,220 L140,220 L130,330 L210,330 Z" fill="none" stroke="#EEEEEE" stroke-width="2"/>
+    <path d="M130,330 L210,330 C210,330 215,340 170,340 C125,340 130,330 130,330 Z" fill="none" stroke="#EEEEEE" stroke-width="2"/>
+    <ellipse cx="170" cy="220" rx="30" ry="10" fill="none" stroke="#EEEEEE" stroke-width="2"/>
+    
+    <!-- Milk Surface -->
+    <ellipse cx="170" cy="235" rx="25" ry="8" fill="#FFF8F0"/>
+    
+    <!-- Steam -->
+    <path d="M155,210 C155,200 165,200 165,190" stroke="#EEEEEE" stroke-width="2" fill="none"/>
+    <path d="M170,210 C170,195 180,195 180,180" stroke="#EEEEEE" stroke-width="2" fill="none"/>
+    <path d="M185,210 C185,200 175,200 175,190" stroke="#EEEEEE" stroke-width="2" fill="none"/>
+    
+    <!-- Cinnamon Sprinkle -->
+    <g fill="#A85418" opacity="0.6">
+      <circle cx="160" cy="235" r="1"/>
+      <circle cx="165" cy="230" r="1"/>
+      <circle cx="170" cy="238" r="1"/>
+      <circle cx="175" cy="232" r="1"/>
+      <circle cx="180" cy="236" r="1"/>
+      <circle cx="157" cy="233" r="1"/>
+      <circle cx="183" cy="231" r="1"/>
+    </g>
+  </g>
+  
+  <!-- Plate -->
+  <ellipse cx="170" cy="360" rx="80" ry="15" fill="#FFFFFF"/>
+  <ellipse cx="170" cy="360" rx="75" ry="12" stroke="#EEEEEE" stroke-width="2" fill="none"/>
+</svg>

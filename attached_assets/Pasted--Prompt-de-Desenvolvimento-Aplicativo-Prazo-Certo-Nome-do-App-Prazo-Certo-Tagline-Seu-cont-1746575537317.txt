@@ -1,0 +1,41 @@
+📱 Prompt de Desenvolvimento — Aplicativo "Prazo Certo"
+Nome do App: Prazo Certo
+Tagline: Seu controle inteligente de validade. Sem desperdício, só praticidade.
+Categoria: Utilitários / Organização Doméstica / Consumo Consciente
+Plataformas: Android e iOS (Flutter ou React Native)
+________________________________________
+🎯 Objetivo do App
+Criar um aplicativo simples e eficiente que permita aos usuários controlar a validade de produtos perecíveis por meio de fotos, notificações inteligentes e geração automática de listas de compras, ajudando a evitar desperdício e manter a organização da despensa.
+________________________________________
+🔑 Funcionalidades Principais
+1. Cadastro Inteligente de Produtos
+•	Captura de foto do produto (opcional) e foto da data de validade (obrigatória)
+•	OCR automático para extrair a data da embalagem (ex: com Google ML Kit ou Tesseract)
+•	Sugestão de nome do produto com IA ou preenchimento manual
+•	Organização por categorias (ex: carnes, frios, vegetais, laticínios)
+2. Painel de Itens e Validades
+•	Visualização clara e organizada dos produtos cadastrados
+•	Ordenação por data de validade (mais próximos no topo)
+•	Indicador de risco com cores: verde (ok), amarelo (atenção), vermelho (vencendo)
+3. Alertas de Vencimento
+•	Notificações antes do vencimento (configurável: 1/3/7 dias)
+•	Alertas personalizados por tipo de produto
+•	Sugestões de consumo ou receitas (futuro opcional)
+4. Lista de Compras Automatizada
+•	Itens vencidos ou descartados vão direto para a lista
+•	Itens recorrentes podem ser marcados como "repor automaticamente"
+•	Interface prática de checklist para uso no mercado
+________________________________________
+💾 Infraestrutura e Tecnologia
+•	OCR: Google ML Kit (preferencial) ou Tesseract OCR
+•	Banco local: SQLite, Hive ou Realm
+•	Sincronização opcional na nuvem: Firebase Firestore ou Supabase
+•	Notificações: Firebase Cloud Messaging
+•	Frontend: Flutter ou React Native
+•	Backend (opcional): Node.js, Firebase Functions, ou Express + MongoDB
+________________________________________
+🎨 Design e Experiência do Usuário
+•	Interface limpa e confiável, estilo “painel de controle pessoal”
+•	Tela inicial com resumo do que está prestes a vencer
+•	Cores: tons claros com destaques em azul ou verde (reforçando controle e confiança)
+•	Experiência guiada no primeiro acesso para mostrar como tirar fotos corretamente

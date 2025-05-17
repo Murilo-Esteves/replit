@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#F5F7FB"/>
+  <rect x="70" y="50" width="160" height="120" rx="8" fill="white" stroke="#E5E7EB"/>
+  
+  <text x="150" y="75" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Lista de Compras</text>
+  
+  <!-- Itens da lista -->
+  <g transform="translate(90, 90)">
+    <rect width="120" height="20" rx="4" fill="#F3F4F6"/>
+    <circle cx="10" cy="10" r="6" stroke="#4338CA" stroke-width="2"/>
+    <text x="30" y="14" font-family="Arial" font-size="10" fill="#333">Leite Integral</text>
+  </g>
+  
+  <g transform="translate(90, 115)">
+    <rect width="120" height="20" rx="4" fill="#F3F4F6"/>
+    <circle cx="10" cy="10" r="6" stroke="#4338CA" stroke-width="2"/>
+    <path d="M7 10L9 12L13 8" stroke="#4338CA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="14" font-family="Arial" font-size="10" fill="#333" text-decoration="line-through">Pão Francês</text>
+  </g>
+  
+  <g transform="translate(90, 140)">
+    <rect width="120" height="20" rx="4" fill="#F3F4F6"/>
+    <circle cx="10" cy="10" r="6" stroke="#4338CA" stroke-width="2"/>
+    <text x="30" y="14" font-family="Arial" font-size="10" fill="#333">Queijo Mussarela</text>
+  </g>
+</svg>

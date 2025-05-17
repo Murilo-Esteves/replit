@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+  <!-- Background -->
+  <circle cx="256" cy="256" r="250" fill="#f5f5f5"/>
+  
+  <!-- Plate -->
+  <ellipse cx="256" cy="360" rx="180" ry="30" fill="#FFFFFF"/>
+  <ellipse cx="256" cy="360" rx="175" ry="25" stroke="#EEEEEE" stroke-width="2" fill="none"/>
+  
+  <!-- Pudding Base -->
+  <g>
+    <ellipse cx="256" cy="240" rx="100" ry="35" fill="#F8E3A3"/>
+    <path d="M156,240 C156,240 156,320 256,320 C356,320 356,240 356,240" fill="#F8E3A3"/>
+    <ellipse cx="256" cy="320" rx="100" ry="35" fill="#F8E3A3"/>
+  </g>
+  
+  <!-- Caramel Layer -->
+  <g>
+    <ellipse cx="256" cy="235" rx="90" ry="25" fill="#E09B49"/>
+    <ellipse cx="256" cy="232" rx="85" ry="22" fill="#D68A3A"/>
+  </g>
+  
+  <!-- Caramel Syrup Dripping -->
+  <g fill="#A85418">
+    <path d="M200,235 C200,235 190,290 190,320" stroke="#A85418" stroke-width="8" fill="none"/>
+    <path d="M230,235 C230,235 235,300 235,330" stroke="#A85418" stroke-width="8" fill="none"/>
+    <path d="M270,235 C270,235 275,290 275,320" stroke="#A85418" stroke-width="8" fill="none"/>
+    <path d="M300,235 C300,235 310,280 310,310" stroke="#A85418" stroke-width="8" fill="none"/>
+    <ellipse cx="190" cy="325" rx="10" ry="5" />
+    <ellipse cx="235" cy="335" rx="12" ry="5" />
+    <ellipse cx="275" cy="325" rx="10" ry="5" />
+    <ellipse cx="310" cy="315" rx="10" ry="5" />
+  </g>
+  
+  <!-- Pudding Sheen -->
+  <g>
+    <ellipse cx="240" cy="225" rx="35" ry="12" fill="#FAF0CC" opacity="0.6"/>
+    <ellipse cx="280" cy="245" rx="25" ry="8" fill="#FAF0CC" opacity="0.4"/>
+  </g>
+  
+  <!-- Jiggle Lines (suggesting softness) -->
+  <g stroke="#F0D28A" stroke-width="1" stroke-dasharray="2,2" fill="none" opacity="0.7">
+    <path d="M180,260 C190,265 220,270 240,268"/>
+    <path d="M240,268 C260,266 290,260 320,250"/>
+    <path d="M190,280 C210,285 230,287 250,286"/>
+    <path d="M250,286 C270,285 290,280 310,272"/>
+    <path d="M200,300 C220,305 240,307 260,306"/>
+    <path d="M260,306 C280,305 300,300 320,292"/>
+  </g>
+</svg>

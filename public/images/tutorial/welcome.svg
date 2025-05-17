@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#F5F7FB"/>
+  <text x="150" y="100" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">Prazo Certo</text>
+  <text x="150" y="130" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Controle inteligente de validade</text>
+  <circle cx="150" cy="70" r="30" fill="#4338CA" opacity="0.2"/>
+  <g transform="translate(130, 50)">
+    <path d="M40 10H10C7.23858 10 5 12.2386 5 15V35C5 37.7614 7.23858 40 10 40H40C42.7614 40 45 37.7614 45 35V15C45 12.2386 42.7614 10 40 10Z" stroke="#4338CA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M15 20L20 25L35 15" stroke="#4338CA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+  <!-- Background -->
+  <circle cx="256" cy="256" r="250" fill="#f5f5f5"/>
+  
+  <!-- Plate -->
+  <ellipse cx="256" cy="360" rx="180" ry="30" fill="#FFFFFF"/>
+  <ellipse cx="256" cy="360" rx="175" ry="25" stroke="#EEEEEE" stroke-width="2" fill="none"/>
+  
+  <!-- French Toast -->
+  <g>
+    <!-- First slice -->
+    <path d="M170,220 L230,220 L240,250 L160,250 Z" fill="#C87D31"/>
+    <path d="M160,250 L240,250 L240,320 L160,320 Z" fill="#D68A3A"/>
+    <rect x="170" y="250" width="60" height="70" fill="#E09B49" opacity="0.6"/>
+    
+    <!-- Second slice -->
+    <path d="M270,220 L330,220 L340,250 L260,250 Z" fill="#C87D31"/>
+    <path d="M260,250 L340,250 L340,320 L260,320 Z" fill="#D68A3A"/>
+    <rect x="270" y="250" width="60" height="70" fill="#E09B49" opacity="0.6"/>
+    
+    <!-- Edges -->
+    <path d="M170,220 L230,220 L240,250 L160,250 Z" fill="none" stroke="#B56B1F" stroke-width="2"/>
+    <path d="M160,250 L240,250 L240,320 L160,320 Z" fill="none" stroke="#B56B1F" stroke-width="2"/>
+    <path d="M270,220 L330,220 L340,250 L260,250 Z" fill="none" stroke="#B56B1F" stroke-width="2"/>
+    <path d="M260,250 L340,250 L340,320 L260,320 Z" fill="none" stroke="#B56B1F" stroke-width="2"/>
+  </g>
+  
+  <!-- Sugar and Cinnamon -->
+  <g>
+    <circle cx="180" cy="260" r="3" fill="#FFFFFF" opacity="0.7"/>
+    <circle cx="190" cy="280" r="2" fill="#FFFFFF" opacity="0.7"/>
+    <circle cx="210" cy="270" r="3" fill="#FFFFFF" opacity="0.7"/>
+    <circle cx="220" cy="290" r="2" fill="#FFFFFF" opacity="0.7"/>
+    <circle cx="200" cy="300" r="3" fill="#FFFFFF" opacity="0.7"/>
+    <circle cx="183" cy="305" r="2" fill="#FFFFFF" opacity="0.7"/>
+    
+    <circle cx="280" cy="260" r="3" fill="#FFFFFF" opacity="0.7"/>
+    <circle cx="290" cy="280" r="2" fill="#FFFFFF" opacity="0.7"/>
+    <circle cx="310" cy="270" r="3" fill="#FFFFFF" opacity="0.7"/>
+    <circle cx="320" cy="290" r="2" fill="#FFFFFF" opacity="0.7"/>
+    <circle cx="300" cy="300" r="3" fill="#FFFFFF" opacity="0.7"/>
+    <circle cx="283" cy="305" r="2" fill="#FFFFFF" opacity="0.7"/>
+    
+    <path d="M180,240 C200,245 220,245 230,240" stroke="#A85418" stroke-width="1" opacity="0.5"/>
+    <path d="M170,260 C190,265 210,265 230,260" stroke="#A85418" stroke-width="1" opacity="0.5"/>
+    <path d="M170,280 C190,285 210,285 230,280" stroke="#A85418" stroke-width="1" opacity="0.5"/>
+    <path d="M170,300 C190,305 210,305 230,300" stroke="#A85418" stroke-width="1" opacity="0.5"/>
+    
+    <path d="M280,240 C300,245 320,245 330,240" stroke="#A85418" stroke-width="1" opacity="0.5"/>
+    <path d="M270,260 C290,265 310,265 330,260" stroke="#A85418" stroke-width="1" opacity="0.5"/>
+    <path d="M270,280 C290,285 310,285 330,280" stroke="#A85418" stroke-width="1" opacity="0.5"/>
+    <path d="M270,300 C290,305 310,305 330,300" stroke="#A85418" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Maple Syrup Drizzle -->
+  <g opacity="0.7">
+    <path d="M200,230 C200,230 190,300 190,320" stroke="#8B4513" stroke-width="4" fill="none"/>
+    <path d="M210,230 C210,230 215,290 215,330" stroke="#8B4513" stroke-width="4" fill="none"/>
+    <path d="M300,230 C300,230 290,300 290,320" stroke="#8B4513" stroke-width="4" fill="none"/>
+    <path d="M310,230 C310,230 315,290 315,330" stroke="#8B4513" stroke-width="4" fill="none"/>
+    <ellipse cx="190" cy="330" rx="10" ry="5" fill="#8B4513"/>
+    <ellipse cx="215" cy="340" rx="15" ry="5" fill="#8B4513"/>
+    <ellipse cx="290" cy="330" rx="10" ry="5" fill="#8B4513"/>
+    <ellipse cx="315" cy="340" rx="15" ry="5" fill="#8B4513"/>
+  </g>
+</svg>
